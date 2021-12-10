@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: "Product Sans Regular";
+    src: url("./Fonts/Product\ Sans\ Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Product Sans Bold";
+    src: url("./Fonts/Product\ Sans\ Bold.ttf");
+  }
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Product Sans Regular";
+    -moz-user-select: none; 
+   -webkit-user-select: none;
+   -ms-user-select: none;
+    user-select: none; 
+}
+
+
+:root{
+
+    font-size:16px;
+}
+
+
+#root{
+
+    width: 100%;
+    
+}
+
+
+@media screen and (max-width:60rem) {
+    
+    #root{
+        
+        font-size: 14px;
+    
+    }
+
+}
